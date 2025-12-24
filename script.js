@@ -335,8 +335,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- 8. FORM SUBMISSION TO TELEGRAM ---
     const contactForm = document.getElementById('contactForm');
-    const TELEGRAM_BOT_TOKEN = '8558965722:AAHDGKH72KfwggpnfnfUSL8t4UUj3OQQIy4';
-    const TELEGRAM_CHAT_ID = '676565817';
+    const TELEGRAM_BOT_TOKEN = '';
+    const TELEGRAM_CHAT_ID = '';
     
     if (contactForm) {
         contactForm.addEventListener('submit', async (e) => {
@@ -452,5 +452,6 @@ ${message ? `💬 <b>Xabar:</b>\n${message}` : ''}
             }
         });
     });
+
 
 });
